@@ -1,6 +1,6 @@
 body {
   padding: 0 30px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 26px;
   font-family: "Arial", sans-serif;
   color: #222222;
@@ -18,12 +18,11 @@ a {
 }
 
 .avatar {
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 h1 {
-  font-size: 32px;
-  line-height: normal;
+  font-size: 24px;
 }
 
 h2 {
@@ -31,7 +30,7 @@ h2 {
   line-height: normal;
 }
 
-nav {
+.navigation {
   margin-bottom: 30px;
   padding: 20px;
   color: #ffffff;
@@ -39,13 +38,25 @@ nav {
   border: 5px solid #2d508f;
 }
 
-nav a{
+.navigation a{
   color: white;
 }
 
-ul {
+.navigation ul {
   list-style: none;
   padding-left: 0;
+}
+
+.navigation h2 {
+  margin: 0;
+}
+
+.blog-navigation h2 {
+  margin-top: 0;
+}
+
+.blog-navigation li {
+  margin-bottom: 5px;
 }
 
 aside {
@@ -61,6 +72,12 @@ code {
 
 pre {
   line-height: normal;
+}
+
+.page-title {
+  font-family: "Verdana", sans-serif;
+  font-size: 2.5em;
+  line-height: 120%;
 }
 
 blockquote {
@@ -99,8 +116,16 @@ figcaption {
   font-size: 12px;
   letter-spacing: 0.02em;
   font-style: italic;
-  text-align: center;
+  /* margin: 0 auto; */
   background-color: rgb(202, 224, 248);
+}
+
+.photoViewer {
+  text-align: center;
+}
+
+.photoViewer figcaption {
+  margin: 0 auto;
 }
 
 .pagination a {
@@ -112,10 +137,6 @@ figcaption {
 .pagination {
   text-align: center;
   color: #888888;
-}
-
-figure {
-  text-align: center;
 }
 
 .danger-text {
@@ -132,6 +153,28 @@ figure {
   background-color: #c6f5f0;
 }
 
+.skills dd {
+  background-color: #e8e8e8;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.skills-level {
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4470c4;
+}
+
+.skills-level-ok {
+  background-color: #47bb52;
+}
+
 footer {
+  text-align: center;
   margin-top: 30px;
+}
+
+footer p {
+  display: inline-block;
 }
