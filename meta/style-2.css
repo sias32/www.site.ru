@@ -17,8 +17,18 @@ a {
   text-decoration: underline;
 }
 
+.avatar-container {
+  text-align: center;
+}
+
 .avatar {
   border-radius: 50%;
+}
+
+.partnerblock {
+  background-color: #4a87fa;
+  color: white;
+  padding-left: 5px;
 }
 
 h1 {
@@ -34,11 +44,11 @@ h2 {
   margin-bottom: 30px;
   padding: 20px;
   color: #ffffff;
-  background-color: #4470c4;
+  background-color: rgba(68, 112, 196, 0.7);
   border: 5px solid #2d508f;
 }
 
-.navigation a{
+.navigation a {
   color: white;
 }
 
@@ -49,19 +59,7 @@ h2 {
 
 .navigation h2 {
   margin: 0;
-}
-
-.blog-navigation h2 {
-  margin-top: 0;
-}
-
-.blog-navigation li {
-  margin-bottom: 5px;
-}
-
-aside {
-  margin: 20px 0;
-  color: #c4c4c4;
+  font-size: 1.5em;
 }
 
 pre,
@@ -76,8 +74,10 @@ pre {
 
 .page-title {
   font-family: "Verdana", sans-serif;
-  font-size: 2.5em;
+  font-size: 2em;
   line-height: 120%;
+  font-weight: bold;
+  text-align: center;
 }
 
 blockquote {
@@ -100,32 +100,25 @@ time {
   padding-left: 0;
 }
 
-figure {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-figure img {
+.photoViewer img {
   vertical-align: middle;
   border: 8px solid rgb(202, 224, 248);
 }
 
-figcaption {
-  width: 502px;
-  padding-bottom: 8px;
-  font-size: 12px;
-  letter-spacing: 0.02em;
-  font-style: italic;
-  /* margin: 0 auto; */
-  background-color: rgb(202, 224, 248);
-}
-
 .photoViewer {
   text-align: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .photoViewer figcaption {
   margin: 0 auto;
+  width: 502px;
+  padding-bottom: 8px;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  font-style: italic;
+  background-color: rgb(202, 224, 248);
 }
 
 .pagination a {
@@ -168,6 +161,14 @@ figcaption {
 
 .skills-level-ok {
   background-color: #47bb52;
+}
+
+del {
+  color: #ff4400;
+}
+
+ins {
+  color: rgb(105,178,83);
 }
 
 footer {
