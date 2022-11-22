@@ -28,7 +28,9 @@ a {
 .partnerblock {
   background-color: #4a87fa;
   color: white;
-  padding-left: 5px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
 }
 
 h1 {
@@ -64,12 +66,20 @@ h2 {
 
 pre,
 code {
-  font-family: "Courier New", "Courier", monospace;
-  color: #6a2cce;
+  background-color: #20202a;
+  border: 4px dashed rgb(93, 86, 93);
+  border-radius: 8px;
+  color: #bcbccc;
+  font-family: "Consolas New", "Consolas", monospace;
+  line-height: normal;
+  padding: 6px;
+  margin: 2px;;
 }
 
-pre {
-  line-height: normal;
+pre code {
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
 }
 
 .page-title {
@@ -165,10 +175,24 @@ time {
 
 del {
   color: #ff4400;
+  text-decoration: none;
 }
 
 ins {
   color: rgb(105,178,83);
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.overline {
+  text-decoration-line: overline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
 }
 
 footer {
