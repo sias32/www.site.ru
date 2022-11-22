@@ -46,7 +46,7 @@ h2 {
   margin-bottom: 30px;
   padding: 20px;
   color: #ffffff;
-  background-color: rgba(68, 112, 196, 0.7);
+  background-color: rgba(68, 112, 196, 0.8);
   border: 5px solid #2d508f;
 }
 
@@ -149,6 +149,10 @@ time {
 .danger-block {
   padding: 5px 10px;
   background-color: #ffd0bf;
+}
+
+.font-style {
+  font-style: italic;
 }
 
 .no-danger-block {
