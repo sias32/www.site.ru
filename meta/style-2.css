@@ -202,8 +202,18 @@ ins {
 footer {
   text-align: center;
   margin-top: 30px;
+  color: #aaaaaa;
+  border-top: 1px solid #aaaaaa;
+  margin-top: 30px;
+  padding-top: 10px;
 }
 
 footer p {
-  display: inline-block;
+  display: inline;
+}
+
+footer a {
+  color: #aaaaaa;
+  text-decoration: none;
+  text-decoration: line-through;
 }
